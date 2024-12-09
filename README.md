@@ -1,29 +1,5 @@
 #  Modelando um Dashboard de E-commerce com Power BI Utilizando Fórmulas DAX
 
-##  Descrição do Desafio
-O objetivo deste projeto é **transformar uma tabela única** (Financial Sample) em um **modelo dimensional** baseado em **Star Schema**. A partir da tabela original, vamos construir as **tabelas fato e dimensão**, extraindo e reorganizando os dados para melhor compreensão e análise.
-
-###  Estrutura do Modelo
-1. **Tabela Original:**
-   - `Financials_origem` (modo oculto – backup)
-
-2. **Tabelas Dimensão:**
-   - **D_Produtos**:  
-     - ID_produto, Produto, Média de Unidades Vendidas, Média de Valor de Vendas, Mediana de Valor de Vendas, Valor Máximo de Venda, Valor Mínimo de Venda.
-   - **D_Produtos_Detalhes**:  
-     - ID_produto, Discount Band, Sale Price, Units Sold, Manufacturing Price.
-   - **D_Descontos**:  
-     - ID_produto, Discount, Discount Band.
-   - **D_Detalhes** (*):  
-     - Tabela que contém informações complementares que não foram contempladas nas outras dimensões.
-   - **D_Calendário**:  
-     - Criada via DAX com a função `CALENDAR()`.
-
-3. **Tabela Fato:**
-   - **F_Vendas**:  
-     - SK_ID, ID_Produto, Produto, Units Sold, Sales Price, Discount Band, Segment, Country, Salers, Profit, Date.
-
----
 
 ##  Etapas do Projeto
 
@@ -75,7 +51,7 @@ Este projeto demonstra habilidades em:
 
 ---
 
-##  Tecnologias e Ferramentas Utilizadas
+## Tecnologias e Ferramentas Utilizadas
 - 🟡 **Power BI**  
 - 🧮 **DAX**  
 - 🔄 **Power Query**  
