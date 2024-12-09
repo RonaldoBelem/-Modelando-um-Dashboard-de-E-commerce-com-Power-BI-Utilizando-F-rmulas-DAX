@@ -1,9 +1,9 @@
-# 🌟 Desafio de Projeto – Star Schema com Financial Sample
+#  Modelando um Dashboard de E-commerce com Power BI Utilizando Fórmulas DAX
 
-## 📝 Descrição do Desafio
+##  Descrição do Desafio
 O objetivo deste projeto é **transformar uma tabela única** (Financial Sample) em um **modelo dimensional** baseado em **Star Schema**. A partir da tabela original, vamos construir as **tabelas fato e dimensão**, extraindo e reorganizando os dados para melhor compreensão e análise.
 
-### 📂 Estrutura do Modelo
+###  Estrutura do Modelo
 1. **Tabela Original:**
    - `Financials_origem` (modo oculto – backup)
 
@@ -25,7 +25,7 @@ O objetivo deste projeto é **transformar uma tabela única** (Financial Sample)
 
 ---
 
-## 🚀 Etapas do Projeto
+##  Etapas do Projeto
 
 1. **Criação das Tabelas Dimensão e Fato:**
    - Extraímos colunas específicas da tabela original para compor cada dimensão e tabela fato.
@@ -42,14 +42,14 @@ O objetivo deste projeto é **transformar uma tabela única** (Financial Sample)
 
 ---
 
-## 🛠️ Funcionalidades e Funções DAX Utilizadas
+##  Funcionalidades e Funções DAX Utilizadas
 - **Função CALENDAR()**: Para gerar a dimensão de datas.
 - **Agregações**: Média, Mediana, Mínimo e Máximo.
 - **Condicionais**: Criação de colunas derivadas com base em regras de negócio.
 
 ---
 
-## 📂 Arquivos no Repositório
+##  Arquivos no Repositório
 - **Financials_origem**: Tabela original usada como backup (oculta).
 - **Desafio_star_schema.pbix**: Arquivo Power BI com o modelo dimensional criado.
 - **starschema.png**: Imagem do esquema em estrela.
@@ -66,7 +66,7 @@ O objetivo deste projeto é **transformar uma tabela única** (Financial Sample)
 
 ---
 
-## 🎯 Finalidade do Projeto
+##  Finalidade do Projeto
 Este projeto demonstra habilidades em:
 - **Modelagem dimensional** usando Power BI.
 - **Manipulação de dados com DAX** e **Power Query**.
@@ -75,7 +75,7 @@ Este projeto demonstra habilidades em:
 
 ---
 
-## 🚀 Tecnologias e Ferramentas Utilizadas
+##  Tecnologias e Ferramentas Utilizadas
 - 🟡 **Power BI**  
 - 🧮 **DAX**  
 - 🔄 **Power Query**  
